@@ -29,7 +29,7 @@ time_axis = np.arange(id_start,id_end)
 
 plt.plot(time_axis,data[:,1][id_start:id_end],'b.',label=site_id+' data') #data for mean methane fluxes
 plt.plot(time_axis,data[:,6][id_start:id_end],'r.',label=site_id+' filled data') #filled data
-plt.ylabel('mean FCH4')
+plt.ylabel('mean CH4 flux') # test change
 plt.legend(loc='best')
 plt.show()
 
