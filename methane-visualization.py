@@ -1,4 +1,4 @@
-# Adapted from Andrea Gasper
+# Adapted from Andrea Gaspert
 
 # import important packages
 import numpy as np
